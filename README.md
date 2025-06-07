@@ -37,10 +37,10 @@ This portfolio is configured for automatic deployment to GitHub Pages. Here's ho
 
 ### Step 1: Create GitHub Repository
 
-1. Create a new repository on GitHub
+1. Go to github.com and create a new repository
 2. Name it either:
-   - `your-username.github.io` (for main domain)
-   - `portfolio-website` (for subdomain)
+   - "AftabKhan707.github.io" (main domain)
+   - "portfolio-website" (subdomain)
 
 ### Step 2: Configure Repository Settings
 
