@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aftab Khan - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features a clean design showcasing projects, skills, and contact information.
 
-First, run the development server:
+## 🚀 Live Demo
+
+Visit the live portfolio: [Your GitHub Pages URL will be here after deployment]
+
+## ✨ Features
+
+- **Modern Design**: Clean, professional layout with smooth animations
+- **Responsive**: Works perfectly on desktop, tablet, and mobile devices
+- **Dark/Light Mode**: Automatic theme switching based on user preference
+- **Live Project Links**: Direct links to live demos and GitHub repositories
+- **Contact Integration**: Easy ways to get in touch via email, phone, and social media
+- **AI-Powered Projects**: Showcasing advanced MERN stack applications
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.3.3
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages
+
+## 📁 Projects Featured
+
+1. **Finance Managing App (Welth)** - AI-powered finance management with automated tracking
+2. **Chat App** - Real-time messaging with MERN stack and Socket.io
+3. **File Transfer App** - P2P file sharing with WebRTC
+4. **Realtime Device Tracker** - Live device tracking with maps
+
+## 🚀 Deployment to GitHub Pages
+
+This portfolio is configured for automatic deployment to GitHub Pages. Here's how to set it up:
+
+### Step 1: Create GitHub Repository
+
+1. Create a new repository on GitHub
+2. Name it either:
+   - `your-username.github.io` (for main domain)
+   - `portfolio-website` (for subdomain)
+
+### Step 2: Configure Repository Settings
+
+1. Go to your repository settings
+2. Navigate to "Pages" section
+3. Set source to "GitHub Actions"
+
+### Step 3: Push Your Code
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Initialize git (if not already done)
+git init
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial portfolio commit"
+
+# Add remote repository
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+# Push to GitHub
+git push -u origin main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 4: Access Your Live Site
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+After the GitHub Actions workflow completes (usually 2-3 minutes), your site will be available at:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `https://your-username.github.io` (if repo name is your-username.github.io)
+- `https://your-username.github.io/portfolio-website` (if repo name is portfolio-website)
 
-## Learn More
+## 🔧 Local Development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Install dependencies
+npm install --legacy-peer-deps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start development server
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Build for production
+npm run build
 
-## Deploy on Vercel
+# Preview production build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Adding Your Profile Photo
+
+1. Add your image to the `/public` folder as `profile.png`
+2. The image will automatically display in the hero section
+
+### Updating Project Information
+
+Edit the `projects` array in `src/app/page.tsx` to add/modify your projects.
+
+### Updating Contact Information
+
+Update contact details in the contact section of `src/app/page.tsx`.
+
+## 🤝 Connect with Aftab
+
+- **Email**: aftabsaboorkhan@gmail.com
+- **Phone**: +91 91990 35463
+- **GitHub**: [github.com/AftabKhan707](https://github.com/AftabKhan707)
+- **LinkedIn**: [linkedin.com/in/aftabskhan](https://linkedin.com/in/aftabskhan)
+
+---
+
+_Built with ❤️ by Aftab Khan - Full Stack Developer_
