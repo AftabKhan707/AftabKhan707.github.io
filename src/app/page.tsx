@@ -133,7 +133,7 @@ export default function Portfolio() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="text-muted-foreground">+91 91990 35463</span>
+                <span className="text-muted-foreground">(+1) 919-903-5463</span>
               </div>
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <Mail className="w-5 h-5 text-primary" />
